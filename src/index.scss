@@ -1,15 +1,144 @@
+// fonts
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 // setup
 * {
   margin: 0;
   padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
   box-sizing: border-box;
 }
 
 // variables
 $black: #000;
 $white: #fff;
+$grey: rgba(255, 255, 255, 0.4);
+$colorBg: #1f1f38;
+$colorBgVariant: #4db5ff;
+$colorPrimary: rgba(77, 181, 255, 0.4);
+
+$fontPrimary: "Poppins", sans-serif;
+
+$transition: "all 400ms ease";
+
+$containerWidthLg: 75%;
+$containerWidthMd: 86%;
+$containerWidthMs: 90%;
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
 
 body {
-  background: $black;
+  background: $colorBg;
   color: $white;
+  font-family: $fontPrimary;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  background-image: url(../src/assets/bg-texture.png);
+}
+
+// general setup
+.container {
+  width: $containerWidthLg;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+a {
+  color: $colorPrimary;
+  cursor: pointer;
+  transition: $transition;
+}
+
+a:hover {
+  color: $white;
+}
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: $colorPrimary;
+  padding: 0.75rem 1.2rem;
+  cursor: pointer;
+  border: 1px solid $colorPrimary;
+  transition: $transition;
+}
+.btn:hover {
+  background: $white;
+  color: $colorBg;
+  border-color: transparent;
+}
+
+.btnPrimary {
+  background: $colorPrimary;
+  color: $colorBg;
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+section {
+  margin-top: 8rem;
+}
+
+section > h2,
+section > h5 {
+  text-align: center;
+  color: $grey;
+}
+
+section > h2 {
+  color: $colorPrimary;
+  margin-bottom: 3rem;
+}
+
+.text-light {
+  color: $grey;
+}
+
+// responsive
+
+// ===Medium devices===
+@media screen and (max-width: 1024px) {
+  .container {
+    width: $containerWidthMd;
+  }
+
+  section {
+    margin-top: 6rem;
+  }
+}
+
+// ===Small devices===
+@media screen and (max-width: 600px) {
+  .container {
+    width: $containerWidthMs;
+  }
+
+  section > h2 {
+    margin-bottom: 2rem;
+  }
 }

@@ -1,10 +1,18 @@
 import React from "react";
+import { About, Contact, Experience, Footer, Header, Nav, Portfolio, Services, Testimonials } from './components'
 
 const App = () => {
   return (
     <div className="container">
-        <p className="one">Hello</p>
-        <p className="two">Hi</p>
+        <Header/>
+        <Nav/>
+        <About/>
+        <Experience/>
+        <Services/>
+        <Portfolio/>
+        <Testimonials/>
+        <Contact/>
+        <Footer/>
     </div>
   )
 }
