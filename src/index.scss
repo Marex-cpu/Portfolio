@@ -77,11 +77,12 @@ a:hover {
 .btn {
   width: max-content;
   display: inline-block;
-  color: $colorPrimary;
+  color: $colorBgVariant;
   padding: 0.75rem 1.2rem;
   cursor: pointer;
   border: 1px solid $colorPrimary;
   transition: $transition;
+  border-radius: 8px;
 }
 .btn:hover {
   background: $white;
@@ -90,7 +91,7 @@ a:hover {
 }
 
 .btnPrimary {
-  background: $colorPrimary;
+  background: $colorBgVariant;
   color: $colorBg;
 }
 
@@ -115,7 +116,7 @@ section > h2 {
   margin-bottom: 3rem;
 }
 
-.text-light {
+.textLight {
   color: $grey;
 }
 

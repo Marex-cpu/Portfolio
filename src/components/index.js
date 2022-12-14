@@ -7,6 +7,8 @@ import Nav from "./Nav";
 import Portfolio from "./Portfolio";
 import Services from "./Services";
 import Testimonials from "./Testimonials";
+import CTA from "./CTA";
+import HeaderSocials from "./HeaderSocials";
 
 export {
   About,
@@ -18,4 +20,6 @@ export {
   Portfolio,
   Services,
   Testimonials,
+  CTA,
+  HeaderSocials,
 };

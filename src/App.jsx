@@ -5,14 +5,14 @@ const App = () => {
   return (
     <div className="container">
         <Header/>
-        <Nav/>
+        {/* <Nav/>
         <About/>
         <Experience/>
         <Services/>
         <Portfolio/>
         <Testimonials/>
         <Contact/>
-        <Footer/>
+        <Footer/> */}
     </div>
   )
 }
