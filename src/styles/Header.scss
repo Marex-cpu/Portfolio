@@ -24,10 +24,57 @@ header {
   align-items: center;
   gap: 0.8rem;
   left: 0;
-  bottom: 3rem;
+  bottom: 0;
+}
+.headerSocials::after {
+  content: "";
+  width: 0.2rem;
+  height: 3rem;
+  background: rgba(77, 181, 255, 0.4);
 }
 
 .me {
   margin-top: 2.5rem;
   max-width: 470px;
+  background: #4db5ff;
+  border-radius: 1rem;
+  img {
+    transition: border-radius 200ms ease;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+  }
+}
+.me:hover {
+  img {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+}
+
+.scrollDown {
+  position: absolute;
+  bottom: 4rem;
+  right: -3.5rem;
+  transform: rotate(90deg);
+}
+
+// responsive
+// ===Medium devices===
+@media screen and (max-width: 1024px) {
+  header {
+    height: 68vh;
+  }
+}
+
+// ===Small devices===
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
+  .headerSocials,
+  .scrollDown {
+    display: none;
+  }
 }

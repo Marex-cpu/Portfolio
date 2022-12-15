@@ -103,6 +103,7 @@ img {
 
 section {
   margin-top: 8rem;
+  height: 100vh;
 }
 
 section > h2,
@@ -112,7 +113,7 @@ section > h5 {
 }
 
 section > h2 {
-  color: $colorPrimary;
+  color: $colorBgVariant;
   margin-bottom: 3rem;
 }
 
@@ -121,7 +122,6 @@ section > h2 {
 }
 
 // responsive
-
 // ===Medium devices===
 @media screen and (max-width: 1024px) {
   .container {
