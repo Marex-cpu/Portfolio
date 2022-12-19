@@ -59,6 +59,7 @@
         justify-content: center;
         background: rgba(9, 9, 121, 1) 50%;
         border-radius: 8px;
+        cursor: default;
         .icon {
           font-size: 3rem;
           margin-bottom: 1.25rem;
@@ -83,6 +84,51 @@
 
     .infoAboutMe {
       margin-bottom: 3rem;
+    }
+  }
+}
+
+// responsive
+// ===Medium devices===
+@media screen and (max-width: 1024px) {
+  .aboutContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .leftContent {
+      width: 50%;
+    }
+
+    .rightContent {
+      width: 100%;
+    }
+  }
+}
+
+// ===Small devices===
+@media screen and (max-width: 600px) {
+  .aboutContainer {
+    .leftContent {
+      width: 50%;
+    }
+
+    .rightContent {
+      width: 100%;
+
+      .cardsContainer {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        margin-bottom: 2rem;
+      }
+
+      .infoAboutMe {
+        margin-bottom: 2rem;
+      }
+
+      a {
+        align-self: center;
+      }
     }
   }
 }

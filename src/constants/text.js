@@ -22,3 +22,74 @@ export const aboutMe = [
     info: "High School",
   },
 ];
+
+export const frontSkills = [
+  {
+    id: 1,
+    title: "HTML",
+    level: "Experienced",
+  },
+  {
+    id: 2,
+    title: "CSS",
+    level: "Experienced",
+  },
+  {
+    id: 3,
+    title: "JavaScript",
+    level: "Intermediate",
+  },
+  {
+    id: 4,
+    title: "Bootstrap",
+    level: "Intermediate",
+  },
+  {
+    id: 5,
+    title: "Tailwind",
+    level: "Intermediate",
+  },
+  {
+    id: 6,
+    title: "jQuery",
+    level: "Basic",
+  },
+  {
+    id: 7,
+    title: "TypeScript",
+    level: "Basic",
+  },
+  {
+    id: 8,
+    title: "React",
+    level: "Intermediate",
+  },
+  {
+    id: 9,
+    title: "Sass",
+    level: "Experienced",
+  },
+  {
+    id: 10,
+    title: "Git",
+    level: "Basic",
+  },
+  {
+    id: 11,
+    title: "Figma",
+    level: "Basic",
+  },
+];
+
+export const backSkills = [
+  {
+    id: 1,
+    title: "Node JS",
+    level: "Basic",
+  },
+  {
+    id: 2,
+    title: "MongoDB",
+    level: "Basic",
+  },
+];
