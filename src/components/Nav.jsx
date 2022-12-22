@@ -27,9 +27,9 @@ const Nav = () => {
           <AiOutlineBook/>
       </a>
       <a 
-        className={`linkItem ${activeLink === '#services' ? 'active' : ''}`} 
-        href="#services" 
-        onClick={() => setActiveLink('#services')}>
+        className={`linkItem ${activeLink === '#portfolio' ? 'active' : ''}`} 
+        href="#portfolio" 
+        onClick={() => setActiveLink('#portfolio')}>
           <RiServiceLine/>
       </a>
       <a 

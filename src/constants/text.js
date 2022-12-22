@@ -1,6 +1,11 @@
 import { BiMedal } from "react-icons/bi";
 import { MdOutlineCollectionsBookmark } from "react-icons/md";
 import { TbSchool } from "react-icons/tb";
+import img_project1 from "../assets/img_project1.png";
+import img_project2 from "../assets/img_project2.png";
+import img_project3 from "../assets/img_project3.png";
+import img_project4 from "../assets/img_project4.png";
+import img_project5 from "../assets/img_project5.png";
 
 export const aboutMe = [
   {
@@ -91,5 +96,62 @@ export const backSkills = [
     id: 2,
     title: "MongoDB",
     level: "Basic",
+  },
+];
+
+export const projects = [
+  {
+    id: 1,
+    imgProject: img_project1,
+    nameProject: "JavaScript Vanila",
+    gitLink: "https://github.com/Marex-cpu/JavaScript-Vanila",
+    liveLink: "https://mareself-javascript-vanila.netlify.app/#home",
+    technology: ["JS Vanila", "HTML5", "CSS3"],
+  },
+  {
+    id: 2,
+    imgProject: img_project2,
+    nameProject: "Simple React Projects",
+    gitLink: "https://github.com/Marex-cpu/SimpleReactProjects",
+    liveLink: "https://mareself-simplereactprojetcs.netlify.app/",
+    technology: ["React", "CSS3", "Grid", "Data Structures"],
+  },
+  {
+    id: 3,
+    imgProject: img_project3,
+    nameProject: "Bank Modern UL/UX",
+    gitLink: "https://github.com/Marex-cpu/React-project---Bank-Modern-UL-UX",
+    liveLink: "https://mareself-modern-bank.netlify.app/",
+    technology: [
+      "React",
+      "Tailwind",
+      "UL/UX Design",
+      "Figma",
+      "Responsive Design",
+    ],
+  },
+  {
+    id: 4,
+    imgProject: img_project4,
+    nameProject: "Arhitecture & Interior Design",
+    gitLink: "https://github.com/Marex-cpu/self-project-1",
+    liveLink: "https://mareself-architecture.netlify.app/",
+    technology: [
+      "JS",
+      "Sass",
+      "HTML5",
+      "Modern Design",
+      "Responsive Design",
+      "Grid",
+      "Animations",
+    ],
+  },
+  {
+    id: 5,
+    imgProject: img_project5,
+    nameProject: "Portfolio",
+    gitLink: "https://github.com/Marex-cpu/self-project-1",
+    liveLink: "https://mareself-architecture.netlify.app/",
+    technology: ["Front-end", "React", "Sass", "Responsive Design"],
   },
 ];

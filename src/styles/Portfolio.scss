@@ -1,0 +1,109 @@
+.portfolioContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3.5rem;
+  //   border: 1px solid red;
+
+  .project {
+    border-radius: 2rem;
+    padding: 2.5rem;
+    // border: 1px solid yellow;
+    background: rgba(9, 9, 121, 1) 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    .imgContainer {
+      // border: 1px solid red;
+      position: relative;
+      width: 100%;
+      height: 250px;
+      margin-bottom: 1rem;
+      img {
+        border-radius: 2rem;
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+      }
+      .overlay {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        border-radius: 2rem;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+        background-color: #4db5ff;
+        padding: 0 1rem;
+        .doneWith {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          gap: 1rem;
+          justify-content: center;
+          width: 100%;
+          span {
+            text-align: center;
+            background-color: rgba(9, 9, 121, 1);
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 0.8rem;
+            color: #fff;
+            font-size: 1.4rem;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            text-transform: uppercase;
+            cursor: default;
+          }
+        }
+      }
+    }
+
+    .imgContainer:hover .overlay {
+      opacity: 1;
+    }
+
+    .nameProject {
+      font-weight: 600;
+      letter-spacing: 2px;
+    }
+
+    .btnContainer {
+      display: flex;
+      gap: 1rem;
+      margin-top: 2.5rem;
+
+      .btnGit {
+        background: transparent;
+        font-size: 1.8rem;
+        transition: all 150ms;
+      }
+      .btnGit:hover,
+      .btnLive:hover {
+        background: #fff;
+        color: #000;
+      }
+      .btnLive {
+        background: #4db5ff;
+        font-size: 1.8rem;
+        transition: all 150ms;
+        color: #000;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1330px) {
+  .portfolioContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .portfolioContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
