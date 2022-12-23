@@ -202,6 +202,6 @@ export const contactOption = [
     icon: <BsWhatsapp className='icon' />,
     type: "WhatsApp",
     info: "+381616697765",
-    link: "https://api.whatsapp.com/send?phone=063466705",
+    link: "https://api.whatsapp.com/send?phone=0616697765",
   },
 ];
