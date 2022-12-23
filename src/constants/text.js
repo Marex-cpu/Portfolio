@@ -154,7 +154,7 @@ export const projects = [
     imgProject: img_project5,
     nameProject: "Portfolio",
     gitLink: "https://github.com/Marex-cpu/self-project-1",
-    liveLink: "https://mareself-architecture.netlify.app/",
+    liveLink: "https://mare-portfolio.app/",
     technology: ["Front-end", "React", "Sass", "Responsive Design"],
   },
 ];
