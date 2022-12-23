@@ -153,7 +153,7 @@ export const projects = [
     id: 5,
     imgProject: img_project5,
     nameProject: "Portfolio",
-    gitLink: "https://github.com/Marex-cpu/self-project-1",
+    gitLink: "https://github.com/Marex-cpu/Portfolio",
     liveLink: "https://mare-portfolio.app/",
     technology: ["Front-end", "React", "Sass", "Responsive Design"],
   },
