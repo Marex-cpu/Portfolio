@@ -8,9 +8,9 @@ const Nav = ({ activeLink, handleClick }) => {
   return (
     <nav>
       <a 
-        className={`linkItem ${activeLink === '#' ? 'active' : ''}`} 
-        href="#"
-        onClick={() => handleClick('#')} 
+        className={`linkItem ${activeLink === '#home' ? 'active' : ''}`} 
+        href="#home"
+        onClick={() => handleClick('#home')} 
       >
           <AiOutlineHome/>
       </a>

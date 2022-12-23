@@ -17,9 +17,9 @@ const Portfolio = () => {
                 <img src={project.imgProject} alt={project.nameProject} />
                 <div className="overlay">
                   <div className='doneWith'>
-                    {project.technology.map((item) => {
+                    {project.technology.map((item, index) => {
                       return (
-                        <span>{item}</span>
+                        <span key={index}>{item}</span>
                       )
                     })}
                   </div>
