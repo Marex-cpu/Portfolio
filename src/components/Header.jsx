@@ -6,20 +6,20 @@ import CTA from './CTA';
 
 import '../styles/Header.scss';
 
-const Header = () => {
+const Header = ({ activeLink, handleClick }) => {
   return (
     <header>
       <h5>Hello I'm</h5>
       <h1>Marko Petrović</h1>
       <h5 className='textLight'>FrontEnd Developer</h5>
-      <CTA/>
+      <CTA activeLink={activeLink} handleClick={handleClick}/>
       <HeaderSocials/>
 
       <div className='me'>
         <img src={Me} alt="Me" />
       </div>
 
-      <a href="#contact" className='scrollDown'>Scroll Down</a>
+      <a href="#contact"  className='scrollDown'>Scroll Down</a>
    </header>
   )
 }

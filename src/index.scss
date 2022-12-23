@@ -127,6 +127,21 @@ section > h2 {
   color: $grey;
 }
 
+.linkItem {
+  background: transparent;
+  padding: 0.9rem;
+  border-radius: 50%;
+  display: flex;
+  color: rgba(255, 255, 255, 0.4);
+}
+.linkItem:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.linkItem.active {
+  background: #1f1f38;
+  color: #fff;
+}
+
 // responsive
 // ===Medium devices===
 @media screen and (max-width: 1024px) {

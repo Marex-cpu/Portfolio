@@ -4,38 +4,43 @@ import { RiServiceLine } from 'react-icons/ri';
 
 import '../styles/Nav.scss';
 
-const Nav = () => {
-  const [activeLink, setActiveLink] = useState('#');
+const Nav = ({ activeLink, handleClick }) => {
+  // const [activeLink, setActiveLink] = useState('#');
   return (
     <nav>
       <a 
         className={`linkItem ${activeLink === '#' ? 'active' : ''}`} 
-        href="#" 
-        onClick={() => setActiveLink('#')}>
+        href="#"
+        onClick={() => handleClick('#')} 
+      >
           <AiOutlineHome/>
       </a>
       <a 
         className={`linkItem ${activeLink === '#about' ? 'active' : ''}`} 
-        href="#about" 
-        onClick={() => setActiveLink('#about')}>
+        href="#about"
+        onClick={() => handleClick('#about')}  
+      >
           <AiOutlineUser/>
       </a>
       <a 
         className={`linkItem ${activeLink === '#experience' ? 'active' : ''}`} 
-        href="#experience" 
-        onClick={() => setActiveLink('#experience')}>
+        href="#experience"
+        onClick={() => handleClick('#experience')} 
+      >
           <AiOutlineBook/>
       </a>
       <a 
         className={`linkItem ${activeLink === '#portfolio' ? 'active' : ''}`} 
-        href="#portfolio" 
-        onClick={() => setActiveLink('#portfolio')}>
+        href="#portfolio"
+        onClick={() => handleClick('#portfolio')} 
+      >
           <RiServiceLine/>
       </a>
       <a 
         className={`linkItem ${activeLink === '#contact' ? 'active' : ''}`} 
-        href="#contact" 
-        onClick={() => setActiveLink('#contact')}>
+        href="#contact"
+        onClick={() => handleClick('#contact')} 
+      >
           <AiOutlineMessage/>
       </a>
     </nav>

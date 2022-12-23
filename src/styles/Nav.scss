@@ -12,19 +12,4 @@ nav {
   gap: 0.8rem;
   border-radius: 3rem;
   backdrop-filter: blur(15px);
-
-  .linkItem {
-    background: transparent;
-    padding: 0.9rem;
-    border-radius: 50%;
-    display: flex;
-    color: rgba(255, 255, 255, 0.4);
-  }
-  .linkItem:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-  }
-  .linkItem.active {
-    background: #1f1f38;
-    color: #fff;
-  }
 }
