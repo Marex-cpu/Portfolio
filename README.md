@@ -1,4 +1,4 @@
-# Marko Petrović my Portfolio :)
+# Marko Petrović Portfolio :)
 
 
 
