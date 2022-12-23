@@ -23,13 +23,13 @@ const Contact = () => {
 
       <div className="contactContainer">
         <div className="contactOptions">
-          {contactOption.map(({icon, type, info, link}, index) => {
+          {contactOption.map(({icon, type, info, link, id}) => {
             return (
-              <article className='contactOption' key={index}>
+              <article className='contactOption' key={id}>
                 {icon}
                 <h4>{type}</h4>
                 <h5>{info}</h5>
-                <a href={link} target='_blank'>Send a message</a>
+                <a href={link} target='_blank' rel='noreferrer'>Send a message</a>
               </article> 
             )
           })}

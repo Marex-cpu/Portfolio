@@ -161,18 +161,22 @@ export const projects = [
 
 export const qoutes = [
   {
+    id: 1,
     name: "Paul Cookson",
     qoute: `${"Great web design without functionality is like a sports car with no engine."}`,
   },
   {
+    id: 2,
     name: "Jacob Lett",
     qoute: `${"Learning HTML and CSS is a lot more challenging than it used to be. Responsive web design adds more layers of complexity to design and develop websites."}`,
   },
   {
+    id: 3,
     name: "John Johnson",
     qoute: `${"First, solve the problem. Then, write the code."}`,
   },
   {
+    id: 4,
     name: "Cory House",
     qoute: `${"Code is like humor. When you have to explain it, it’s bad."}`,
   },
@@ -180,18 +184,21 @@ export const qoutes = [
 
 export const contactOption = [
   {
+    id: 1,
     icon: <AiOutlineMail className='icon' />,
     type: "Email",
     info: "markoo3871@gmail.com",
     link: "mailto:markoo3871@gmail.com",
   },
   {
+    id: 2,
     icon: <RiMessengerLine className='icon' />,
     type: "Messenger",
     info: "Marko Petrović",
     link: "https://m.me/p.markomarepetrovic",
   },
   {
+    id: 3,
     icon: <BsWhatsapp className='icon' />,
     type: "WhatsApp",
     info: "+381616697765",

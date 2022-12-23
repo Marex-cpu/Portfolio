@@ -1,11 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { AiOutlineHome, AiOutlineUser, AiOutlineBook, AiOutlineMessage } from 'react-icons/ai';
 import { RiServiceLine } from 'react-icons/ri';
 
 import '../styles/Nav.scss';
 
 const Nav = ({ activeLink, handleClick }) => {
-  // const [activeLink, setActiveLink] = useState('#');
   return (
     <nav>
       <a 

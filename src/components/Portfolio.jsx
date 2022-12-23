@@ -27,8 +27,8 @@ const Portfolio = () => {
               </div>
               <p className="nameProject">{project.nameProject}</p>
               <div className="btnContainer">
-                <a href={project.gitLink} target='_blank' className='btn btnGit'>Github</a>
-                <a href={project.liveLink} target='_blank' className='btn btnLive'>Live</a>
+                <a href={project.gitLink} target='_blank' rel='noreferrer' className='btn btnGit'>Github</a>
+                <a href={project.liveLink} target='_blank' rel='noreferrer' className='btn btnLive'>Live</a>
               </div>
             </div>
           )

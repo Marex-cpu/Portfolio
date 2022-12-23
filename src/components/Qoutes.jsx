@@ -22,21 +22,14 @@ const Qoutes = () => {
       spaceBetween={30}
       slidesPerView={1}
       pagination={{ clickable: true }}>
-        {qoutes.map(({name, qoute}, index) => {
+        {qoutes.map(({name, qoute, id}) => {
          return (
-          <SwiperSlide className='qoute' key={index}>
+          <SwiperSlide className='qoute' key={id}>
             <h5>{name}</h5>
             <small className='text'>"{qoute}"</small>
           </SwiperSlide>
          ) 
         })}
-
-        {/* <article className='qoute'>
-          <h5>Ime profesora</h5>
-          <small className='text'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, ipsum. Quod non aliquam labore tenetur?
-          </small>
-        </article> */}
       </Swiper>
     </section>
   )
