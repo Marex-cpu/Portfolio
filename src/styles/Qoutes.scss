@@ -1,0 +1,50 @@
+.qoutesContainer {
+  // border: 1px solid red;
+  margin: 0 auto;
+  width: 55%;
+  height: 25rem;
+
+  .qoute {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 2rem;
+    background: rgba(9, 9, 121, 1) 50%;
+    user-select: none;
+
+    h5 {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-style: italic;
+    }
+    .text {
+      display: block;
+      width: 55%;
+      color: rgba(255, 255, 255, 0.6);
+    }
+  }
+}
+
+// responsive
+// ===Medium devices===
+@media screen and (max-width: 1024px) {
+  .qoutesContainer {
+    width: 86%;
+    height: 20rem;
+  }
+}
+
+// ===Small devices===
+@media screen and (max-width: 700px) {
+  .qoutesContainer {
+    width: 100%;
+
+    .qoute {
+      .text {
+        width: 80%;
+      }
+    }
+  }
+}

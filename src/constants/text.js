@@ -155,3 +155,22 @@ export const projects = [
     technology: ["Front-end", "React", "Sass", "Responsive Design"],
   },
 ];
+
+export const qoutes = [
+  {
+    name: "Paul Cookson",
+    qoute: `${"Great web design without functionality is like a sports car with no engine."}`,
+  },
+  {
+    name: "Jacob Lett",
+    qoute: `${"Learning HTML and CSS is a lot more challenging than it used to be. Responsive web design adds more layers of complexity to design and develop websites."}`,
+  },
+  {
+    name: "John Johnson",
+    qoute: `${"First, solve the problem. Then, write the code."}`,
+  },
+  {
+    name: "Cory House",
+    qoute: `${"Code is like humor. When you have to explain it, it’s bad."}`,
+  },
+];

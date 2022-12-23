@@ -5,7 +5,7 @@ import Footer from "./Footer";
 import Header from "./Header";
 import Nav from "./Nav";
 import Portfolio from "./Portfolio";
-import Testimonials from "./Testimonials";
+import Qoutes from "./Qoutes";
 import CTA from "./CTA";
 import HeaderSocials from "./HeaderSocials";
 
@@ -17,7 +17,7 @@ export {
   Header,
   Nav,
   Portfolio,
-  Testimonials,
+  Qoutes,
   CTA,
   HeaderSocials,
 };
