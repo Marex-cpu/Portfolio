@@ -102,5 +102,18 @@
 @media screen and (max-width: 700px) {
   .portfolioContainer {
     grid-template-columns: repeat(1, 1fr);
+
+    .project {
+      border-radius: 1rem;
+
+      .imgContainer {
+        img {
+          border-radius: 1rem;
+        }
+        .overlay {
+          border-radius: 1rem;
+        }
+      }
+    }
   }
 }

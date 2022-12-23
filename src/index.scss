@@ -109,8 +109,7 @@ img {
 }
 
 section {
-  margin-top: 8rem;
-  height: 100vh;
+  margin-top: 30rem;
 }
 
 section > h2,
@@ -136,7 +135,7 @@ section > h2 {
   }
 
   section {
-    margin-top: 6rem;
+    margin-top: 15rem;
     height: auto;
   }
 }
@@ -145,6 +144,10 @@ section > h2 {
 @media screen and (max-width: 600px) {
   .container {
     width: $containerWidthMs;
+  }
+
+  section {
+    margin-top: 6rem;
   }
 
   section > h2 {

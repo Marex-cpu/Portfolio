@@ -3,7 +3,8 @@ import { About, Contact, Experience, Footer, Header, Nav, Portfolio, Qoutes } fr
 
 const App = () => {
   return (
-    <div className="container">
+    <>
+      <div className="container">
         <Header/>
         <Nav/>
         <About/>
@@ -11,8 +12,9 @@ const App = () => {
         <Portfolio/>
         <Qoutes/>
         <Contact/>
-        <Footer/>
-    </div>
+      </div>
+      <Footer/>
+    </>
   )
 }
 

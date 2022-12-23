@@ -1,6 +1,9 @@
 import { BiMedal } from "react-icons/bi";
 import { MdOutlineCollectionsBookmark } from "react-icons/md";
 import { TbSchool } from "react-icons/tb";
+import { AiOutlineMail } from "react-icons/ai";
+import { RiMessengerLine } from "react-icons/ri";
+import { BsWhatsapp } from "react-icons/bs";
 import img_project1 from "../assets/img_project1.png";
 import img_project2 from "../assets/img_project2.png";
 import img_project3 from "../assets/img_project3.png";
@@ -172,5 +175,26 @@ export const qoutes = [
   {
     name: "Cory House",
     qoute: `${"Code is like humor. When you have to explain it, it’s bad."}`,
+  },
+];
+
+export const contactOption = [
+  {
+    icon: <AiOutlineMail className='icon' />,
+    type: "Email",
+    info: "markoo3871@gmail.com",
+    link: "mailto:markoo3871@gmail.com",
+  },
+  {
+    icon: <RiMessengerLine className='icon' />,
+    type: "Messenger",
+    info: "Marko Petrović",
+    link: "https://m.me/p.markomarepetrovic",
+  },
+  {
+    icon: <BsWhatsapp className='icon' />,
+    type: "WhatsApp",
+    info: "+381616697765",
+    link: "https://api.whatsapp.com/send?phone=063466705",
   },
 ];

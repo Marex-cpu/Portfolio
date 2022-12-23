@@ -13,6 +13,7 @@
     border-radius: 2rem;
     background: rgba(9, 9, 121, 1) 50%;
     user-select: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
     h5 {
       text-align: center;
@@ -42,6 +43,7 @@
     width: 100%;
 
     .qoute {
+      border-radius: 1rem;
       .text {
         width: 80%;
       }
