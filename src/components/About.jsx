@@ -30,9 +30,26 @@ const About = ({ activeLink, handleClick }) => {
             })}
           </div>
 
-          <p className='infoAboutMe'>Hello again, my name is Marko Petrović. <br/> 
-          My interest in web development started over a couple of years ago. I really like jobs related to computers and technology, and that's why I liked programming. I'm self-taught, I learned through youtube tutorials, and sites like freeCodeCamp, w3schools, and similarly. I am currently looking for a business opportunity as a beginner, and I can't wait to gain experience in this field. At the same time, I do other jobs to support myself. I have various hobbies, I am versatile and I like to learn new things. <br/>
-          Feel free to reach out if you’d like to work together!</p>
+          <div className="containerProfile">
+            <article className='myProfile'>
+              <h4 className='heading'>Briefly about me</h4>
+              <p className='infoAboutMe'>Hello again, my name is Marko Petrović. <br/> 
+                My interest in web development started over a couple of years ago. I really like jobs related to computers and technology, and that's why I liked programming. I'm self-taught, I learned through youtube tutorials, and sites like freeCodeCamp, w3schools, and similarly. I am currently looking for a business opportunity as a beginner, and I can't wait to gain experience in this field. At the same time, I do other jobs to support myself. I have various hobbies, I am versatile, and I like to learn new things. I can say that I am responsible, and like to finish my tasks on time. <br/>
+                Feel free to reach out if you’d like to work together!
+              </p>
+            </article>
+             <article className='myProfile'>
+              <h4 className='heading'>Education</h4>
+              <ul className='infoAboutMe'>
+                <li>High school - Technical school Apatin</li>
+                <li>Freecodecamp</li>
+                <li>W3Schools</li>
+                <li>Codecademy</li>
+                <li>MDN Web Docs</li>
+                <li>Scrimba</li>
+              </ul>
+            </article>       
+          </div>        
 
           <a href="#contact" className={`btn btnPrimary ${activeLink === '#contact' ? 'active' : '' }`} onClick={() => handleClick('#contact')}>Let's Talk</a>
         </article>     

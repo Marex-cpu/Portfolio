@@ -3,7 +3,6 @@ import Me from '../assets/profile img.jpg';
 import HeaderSocials from './HeaderSocials';
 import CTA from './CTA';
 
-
 import '../styles/Header.scss';
 
 const Header = ({ activeLink, handleClick }) => {

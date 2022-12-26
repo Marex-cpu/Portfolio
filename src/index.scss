@@ -132,13 +132,13 @@ section > h2 {
   padding: 0.9rem;
   border-radius: 50%;
   display: flex;
-  color: rgba(255, 255, 255, 0.4);
+  color: $grey;
 }
 .linkItem:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
 .linkItem.active {
-  background: #1f1f38;
+  background: $colorBg;
   color: #fff;
 }
 

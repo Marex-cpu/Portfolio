@@ -1,17 +1,14 @@
 .aboutContainer {
   display: flex;
-  // align-items: center;
   justify-content: space-between;
   gap: 4rem;
   width: 100%;
-  // border: 1px solid red;
 
   .leftContent {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 35%;
-    // border: 1px solid blue;
 
     .imgContainer {
       max-width: 370px;
@@ -22,7 +19,6 @@
         rgba(77, 181, 255, 1) 100%
       );
       border-radius: 2rem;
-
       img {
         border-radius: 2rem;
         transform: rotate(10deg);
@@ -42,7 +38,6 @@
   .rightContent {
     display: flex;
     flex-direction: column;
-    // border: 1px solid red;
     width: 65%;
 
     .cardsContainer {
@@ -82,8 +77,14 @@
       }
     }
 
-    .infoAboutMe {
+    .myProfile {
       margin-bottom: 3rem;
+      .heading {
+        padding-left: 1rem;
+        color: #4db5ff;
+        font-weight: 600;
+        border-left: 1px solid #4db5ff;
+      }
     }
   }
 }
@@ -122,7 +123,7 @@
         margin-bottom: 2rem;
       }
 
-      .infoAboutMe {
+      .myProfile {
         margin-bottom: 2rem;
       }
 
